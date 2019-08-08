@@ -51,14 +51,14 @@ python3.6 + requests + unittest + pymysql + HTMLTestRunner + os + sys + json + t
 
 1.bin 中的run.py为测试用例运行入口
 
-2.common 中主要放公共方法，日志模块、项目请求函数、读取excel文件、读写token、发送邮件、读取当前类、方法、行的tool等，测试用例存放在testcast_date.xlsx文件中
+2.common 中主要放公共方法，日志模块、项目请求函数、读取excel文件、读写token、发送邮件、读取当前类、方法、行的tool等，测试用例存放在testcast_date.xlsx中
 
-3.conf 中的settings.py文件放文件路径、数据库地址、接口信息、日期、邮箱等数据
+3.conf 中的settings.py放文件路径、数据库地址、接口信息、日期、邮箱等数据
 
 4.db_operate 中的mysql_operate.py存放mysql数据库操作方法
 
-5.log 文件夹存放项目执行过程中的日志信息
+5.log 中存放项目执行过程中的日志信息
 
-6.test_case 文件夹存放每个接口的测试脚本
+6.test_case 中存放每个接口的测试脚本
 
-7.report 文件夹存放测试报告
+7.report 中存放测试报告
