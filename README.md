@@ -3,7 +3,7 @@
 这是一个基于已有的接口自动化测试框架写成的项目，用于公司项目管理后台的回归性测试。整个项目由requests + unittest + logging + pymysql + xlrd + BeautifulReport + smtplib + email模块组成， 测试用例在excel文件中，能连数据库查询。 项目需要在后续的使用中进一步优化，目前尚未使用jenkins做集成，后续打算结合jenkins做成持续集成
 
 ## 项目依赖
-获取token值。方法：请求登录接口（账号 + 谷歌验证码）——>返回token值——>写入yaml文件——>执行测试用例、读取yaml文件中的token（其他接口请求时token需作为请求参数）
+获取token值。方法：请求登录接口（账号 + 谷歌验证码）——>返回token值——>写入yaml文件——>执行测试用例时读取yaml文件中的token（其他接口请求时token需作为请求参数）
 
 1.该项目为线上管理后台项目，接口请求参数需要加入token值，通过登录获取token值
 
