@@ -35,6 +35,8 @@ python3.6 + requests + unittest + pymysql + HTMLTestRunner + os + sys + json + t
 
 10.smtplib,email，发送邮件
 
+11.xlrd，读写excel文件
+
 ## 功能实现
 
 1.用例数据分离
