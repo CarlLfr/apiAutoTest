@@ -13,7 +13,7 @@
 
 ## 环境配置
 
-python3.6 + requests + unittest + pymysql + HTMLTestRunner + os + sys + json + time + redis
+python3.6 + requests + unittest + pymysql + HTMLTestRunner + os + sys + json + time + smtplib + email + xlrd
 
 1.Python3.6，解释器环境
 
